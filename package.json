@@ -1,6 +1,6 @@
 {
   "name": "serial-loop",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Async serial loop",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "loop"
   ],
   "repository": {
-    "url": "git@github.com:azer\/serial-loop.git",
+    "url": "git@github.com:azer/serial-loop.git",
     "type": "git"
   },
   "author": "azer",
