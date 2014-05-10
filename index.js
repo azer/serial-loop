@@ -1,6 +1,8 @@
 module.exports = start;
 
 function start (len, each, callback) {
+  if (len == 0) return callback();
+
   (function loop (i) {
     each(next, i);
 

@@ -33,3 +33,11 @@ test('ending when it fails', function (assert) {
     next();
   }
 });
+
+test('zero length', function (t) {
+  loop(0, each, t.end);
+
+  function each () {
+    throw new Error('fail');
+  }
+});
